@@ -1,0 +1,374 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  font-family: helvetica, arial, sans-ser;
+}
+
+body {
+  background-color: #E5E5E5;
+}
+
+.banner {
+  background-image: url("./img/bgbanner.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 400px;
+}
+
+.banner .bannerContainer h3 {
+  margin-top: 105px;
+  font-size: 36px;
+  font-weight: 700;
+  color: #fff;
+}
+
+.banner .bannerContainer p {
+  background-color: #fff;
+  color: #20A6FF;
+  width: 422px;
+  font-size: 22px;
+  font-weight: 700;
+  padding: 15px 0px 15px 19px;
+  line-height: 25px;
+}
+
+.banner .bannerContainer p b {
+  color: #b6d600;
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.contenido .parrafo {
+  margin-top: 51px;
+  color: #868686;
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.contenido .parrafo b {
+  color: #20A6FF;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.contenido .parrafo1 {
+  margin-top: 31px;
+  color: #868686;
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.contenido .contenidoInfo {
+  margin-top: 50px;
+  margin-bottom: 91px;
+}
+
+.contenido .contenidoInfo .contenidoCard {
+  display: flex;
+  justify-content: center;
+}
+
+.contenido .contenidoInfo .contenidoCard img {
+  width: 80px
+}
+
+.contenido .contenidoInfo .contenidoCard h6 {
+  width: 160px;
+  height: 36px;
+  color: #20A6FF;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.contenido .contenidoInfo .contenidoCard p {
+  width: 170px;
+  color: #868686;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.contenido .contenidoInfo .contenidoCard .cardInfo {
+  margin-left: 10px;
+}
+
+.coruselCard {
+  display: none;
+}
+
+.coruselCard .containerCoruselCard {
+  text-align: center;
+  justify-content: center;
+  height: 200px;
+  padding-top: 25px;
+}
+
+.coruselCard .containerCoruselCard h6 {
+  margin: auto;
+  width: 160px;
+  height: 36px;
+  color: #20A6FF;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.coruselCard .containerCoruselCard p {
+  margin: auto;
+  width: 170px;
+  color: #868686;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.info {
+  background-color: #f9fafa;
+  padding-top: 70px;
+  padding-bottom: 30px;
+}
+
+.info .infoContainerlist {
+  height: 300px;
+  padding-top: 10px;
+}
+
+.info .infoContainerlist h4 {
+  color: #20A6FF;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.info .infoContainerlist ul {
+  padding: 0px;
+  list-style: none;
+}
+
+.info .infoContainerlist ul li {
+  color: #868686;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.info .infoContainerLogos img {
+  width: 100px;
+}
+
+.info .infoContainerLogos1 {
+  text-align: right
+}
+
+.info .infoContainerLogos1 a {
+  color: #868686;
+  margin-right: 10px;
+  font-size: 25px;
+}
+
+.footer {
+  margin: 45px 0px;
+}
+
+.footer .footerText p {
+  font-size: 14px;
+  color: #868686;
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+@media(max-width:1400px) {
+
+  .contenido .contenidoInfo .contenidoCard {
+    display: block;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .contenido .contenidoInfo .contenidoCard img {
+    width: 80px;
+    margin-bottom: 10px;
+  }
+
+  .contenido .contenidoInfo .contenidoCard h6 {
+    width: 100%;
+    height: 36px;
+    color: #20A6FF;
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 10px;
+  }
+
+  .contenido .contenidoInfo .contenidoCard p {
+    margin: auto;
+    width: 170px;
+    color: #868686;
+    font-size: 14px;
+    font-weight: 400;
+  }
+
+  .contenido .contenidoInfo .contenidoCard .cardInfo {
+    margin-left: 0px;
+  }
+
+  .info {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+
+  .info .infoContainerlist {
+    height: 100%;
+    padding-top: 10px;
+  }
+
+  .info .infoContainerlist h4 {
+    color: #20A6FF;
+    font-size: 16px;
+    font-weight: 600;
+  }
+
+  .info .infoContainerlist ul {
+    padding: 0px;
+    list-style: none;
+  }
+
+  .info .infoContainerlist ul li {
+    color: #868686;
+    font-size: 14px;
+    font-weight: 400;
+  }
+
+  .info .infoContainerLogos {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .info .infoContainerLogos img {
+    width: 100px;
+  }
+
+  .info .infoContainerLogos1 {
+    text-align: center;
+  }
+
+  .info .infoContainerLogos1 a {
+    color: #868686;
+    margin-right: 10px;
+    font-size: 25px;
+  }
+}
+
+@media(max-width:1100px) {
+  .info .infoContainerlist {
+    height: 100%;
+    padding-top: 10px;
+  }
+
+  .info .infoContainerlist1 {
+    display: block;
+  }
+}
+
+@media(max-width:500px) {
+  .coruselCard {
+    display: block;
+    margin-bottom: 30px;
+  }
+
+  .carousel-control-prev-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%2320A6FF' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
+   }
+   
+   .carousel-control-next-icon {
+     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%2320A6FF' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
+   }
+
+  .contenidoInfo {
+    display: none;
+  }
+
+  .banner {
+    background-image: url("./img/bgbanner2.png");
+    height: 226px;
+  }
+
+  .banner .bannerContainer {
+    padding-left: 24px;
+  }
+
+  .banner .bannerContainer h3 {
+    margin-top: 61px;
+    font-size: 24px;
+    font-weight: 700;
+  }
+
+  .banner .bannerContainer p {
+    width: 259px;
+    font-size: 14px;
+    padding: 11px 13px;
+    line-height: 16px;
+  }
+
+  .banner .bannerContainer p b {
+    font-size: 14px;
+    font-weight: 700;
+  }
+
+  .contenido .parrafo {
+    margin-top: 40px;
+    font-size: 14px;
+  }
+
+  .contenido .parrafo b {
+    font-size: 14px;
+  }
+
+  .contenido .parrafo1 {
+    margin-top: 15px;
+    font-size: 14px;
+  }
+
+  .contenido .contenidoInfo {
+    margin-top: 50px;
+    margin-bottom: 91px;
+  }
+
+  .contenido .contenidoInfo .contenidoCard {
+    margin-bottom: 20px;
+  }
+
+  .contenido .contenidoInfo .contenidoCard img {
+    width: 80px;
+    margin-bottom: 10px;
+  }
+
+  .contenido .contenidoInfo .contenidoCard h6 {
+    width: 100%;
+    height: 36px;
+    color: #20A6FF;
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 0px;
+  }
+
+  .contenido .contenidoInfo .contenidoCard p {
+    margin: auto;
+    width: 170px;
+    color: #868686;
+    font-size: 14px;
+    font-weight: 400;
+  }
+
+  .contenido .contenidoInfo .contenidoCard .cardInfo {
+    margin-left: 0px;
+  }
+
+  .info .infoContainerlist,.infoContainerlist1 {
+    display: none
+  }
+
+  .info .infoContainerLogos {
+    display: none
+  }
+}
